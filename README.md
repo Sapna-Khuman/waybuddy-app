@@ -1,16 +1,53 @@
-# waybuddy
+# 🚗 WayBuddy - Ride Booking Flutter App
 
-A new Flutter project.
+## 📌 Overview
 
-## Getting Started
+WayBuddy is a Flutter-based ride booking application designed to provide a smooth and user-friendly experience for users to find, book, and manage rides. The app focuses on clean UI design, easy navigation, and efficient ride management.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* 🔐 User Authentication (Sign In / Sign Up)
+* 📍 Find Ride functionality
+* 🚕 Book Ride with details
+* 📊 Ride Status Tracking
+* 👤 User Profile Management
+* 🔑 Forgot Password & OTP Verification
+* 🗺️ Map Integration UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Flutter (Dart)
+* **UI Design:** Material UI
+* **IDE:** Android Studio / VS Code
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+ ┣ Ride/
+ ┃ ┣ find_ride.dart
+ ┃ ┣ ride_details.dart
+ ┃ ┗ booked_ride_status.dart
+ ┣ profile/
+ ┣ signin_signup/
+ ┣ main.dart
+```
+
+---
+
+## 🚀 How to Run the Project
+
+```bash
+git clone https://github.com/Sapna-Khuman/waybuddy-app.git
+cd waybuddy-app
+flutter pub get
+flutter run
+```
+
+---
